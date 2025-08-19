@@ -1,0 +1,112 @@
+.pessoaContainer{
+    font-family: Helvetica;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoaContent{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoaContentInfo{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pessoaContentMusic{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pessoaImagemInfo{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.pessoaBoxInfo{
+    margin: 10px;
+    padding: 20px;
+    background-color: #4A4A4A ;
+    border-radius: 20px;
+    width: 380px;
+    height: 150px;
+}
+
+.pessoaBoxMusic{
+    padding: 20px;
+    background-color: #4A4A4A;
+    border-radius: 20px;
+    width: 455px;
+    height: 75px;
+    margin: 10px;
+}
+
+.pessoaImagemMusic{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.pessoaContentFilme{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pessoaBoxFilme{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    margin: 10px;
+    width: 256px;
+}
+
+.pessoaImagemFilme{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    width: 580px;
+    height: 100px;
+}
+
+.pessoaContentHobbie{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pessoaBoxHobbie{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    margin: 10px;
+    width: 256px;
+    height: 20px;
+}
+
+.pessoaImagemHobbie{
+    border-radius: 20px;
+    background-color: #4A4A4A;
+    padding: 20px;
+    width: 75px;
+    height: 75px;
+}
+
+.pessoaH2{
+    display: block;
+    text-align: center;
+}
