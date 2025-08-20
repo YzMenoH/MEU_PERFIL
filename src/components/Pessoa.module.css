@@ -22,15 +22,16 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block;
+    align-content: center;
 }
 
 .pessoaImagemInfo{
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #4A4A4A;
     padding: 20px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .pessoaBoxInfo{
@@ -38,23 +39,46 @@
     padding: 20px;
     background-color: #4A4A4A ;
     border-radius: 20px;
-    width: 380px;
-    height: 150px;
+    width: 1000px;
+    height: 100px;
 }
 
 .pessoaBoxMusic{
-    padding: 20px;
+    padding: 30px;
     background-color: #4A4A4A;
     border-radius: 20px;
-    width: 455px;
-    height: 75px;
+    border: #88083d 5px solid;
+    width: auto;
+    height: auto;
     margin: 10px;
+    display: flex;
+}
+
+.pessoaDisplayMusic{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.pessoaMusicH3{
+    display: block;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #88083d;
+    width: auto;
+    height: 60px;
+    border-radius: 20px;
 }
 
 .pessoaImagemMusic{
-    border-radius: 20px;
+    border-radius: 30px 50px;
+    border: #363636 8px solid;
     background-color: #4A4A4A;
     padding: 20px;
+    margin: 10px;
     width: 75px;
     height: 75px;
 }

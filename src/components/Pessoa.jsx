@@ -14,26 +14,44 @@ function Pessoa(props){
                 </div>
             </div>
             
-            <h2 className={styles.pessoaH2}>Hobbies e Gostos</h2>
+            <h2 className={styles.pessoaH2}>Gostos Pessoais</h2>
+
 
             <div className={styles.pessoaContentMusic}>
+                <div className={styles.pessoaMusicH3}>
+                    <h3>Músicas favoritas</h3>
+                </div>
+                
                 <div className={styles.pessoaBoxMusic}>
-                    <h3>Gosto musical: {props.musical}</h3>
-                </div>
-                <div className={styles.pessoaImagemMusic}>
-                    <img src={props.imgMusical} alt={props.musical}/>
-                </div>
-            </div>
-            
-            <div className={styles.pessoaContentMusic}>
+                    <div className={styles.pessoaDisplayMusic}>
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                            
+                        </div>
 
-                <div className={styles.pessoaBoxMusic}>
-                    <h3>Música favorita: {props.musica}</h3>
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                        </div>
+
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                        </div>
+
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                        </div>
+
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                        </div>
+
+                        <div className={styles.pessoaImagemMusic}>
+                            <img src={props.imgMusical} alt={props.musical}/>
+                        </div>
+
+                    </div>
                 </div>
-                <div className={styles.pessoaImagemMusic}>
-                    <img src={props.imgMusica} alt={props.musica}/>
-                </div>
-            </div>       
+            </div> 
 
             <div className= {styles.pessoaContentFilme}>
                 <div className={styles.pessoaBoxFilme}>
