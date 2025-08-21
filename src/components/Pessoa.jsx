@@ -8,9 +8,9 @@ function Pessoa(props){
                     <img src={props.foto} alt={props.nome}/>
                 </div>
                 <div className={styles.pessoaBoxInfo}>
-                    <h3>Nome: {props.nome}</h3>
-                    <h3>Idade: {props.idade}</h3>
-                    <h3>Profissão: {props.profissao}</h3>
+                    <h4>Nome: {props.nome}</h4>
+                    <h4>Idade: {props.idade}</h4>
+                    <h4>Profissão: {props.profissao}</h4>
                 </div>
             </div>
             
@@ -18,75 +18,124 @@ function Pessoa(props){
 
 
             <div className={styles.pessoaContentMusic}>
-                <div className={styles.pessoaMusicH3}>
+                <div className={styles.pessoaH3}>
                     <h3>Músicas favoritas</h3>
                 </div>
                 
                 <div className={styles.pessoaBoxMusic}>
                     <div className={styles.pessoaDisplayMusic}>
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
-                            
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusical} alt={props.musical}/>
+                            <img src={props.imgMusica} alt={props.musica}/>
                         </div>
 
                     </div>
                 </div>
             </div> 
+                    
 
             <div className= {styles.pessoaContentFilme}>
-                <div className={styles.pessoaBoxFilme}>
-                    <h3>Gosto cinematico: {props.cinema}</h3>
+                <div className={styles.pessoaH3}>
+                    <h3>Filmes Favoritos</h3>   
                 </div>
-                    
-                <div className={styles.pessoaBoxFilme}>                   
-                    <h3>Filme favorito: {props.filme}</h3>
+
+                <div className={styles.pessoaBoxFilme}>
+                    <div className={styles.pessoaDisplayFilme}>
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+                        
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+                        
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+                        
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme}/>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div className={styles.pessoaImagemFilme}>
-                    <img src={props.imgFilme} alt={props.filme}/>
+
+            <div className={styles.pessoaContentHobbie}>
+                <div className={styles.pessoaH3}>
+                    <h3>Meus Hobbies</h3>
                 </div>
-
-            <div>
-                <div className={styles.pessoaContentHobbie}>
-
-                    <div className={styles.pessoaBoxHobbie}>
-                        <img src={props.imgJogos} alt={props.jogos}/>
-                        <h3>Hobbie: {props.jogos}</h3>
+                <div className={styles.pessoaDisplayHobbie}>
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.design}/>
+                        </div>
+                        <div className={styles.pessoaH4Hobbie}>
+                            <h4>{props.hobbie}</h4>
+                        </div>
                     </div>
 
-                    <div className={styles.pessoaBoxHobbie}>
-                        <img src={props.imgFuebol} alt={props.futebol}/>
-                        <h3>Hobbie: {props.futebol}</h3>
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.design}/>
+                        </div>
+                        <div className={styles.pessoaH4Hobbie}>
+                            <h4>{props.hobbie}</h4>
+                        </div>
                     </div>
 
-                    <div className={styles.pessoaImagemHobbie}>
-                        <img src={props.imgDesign} alt={props.design}/>
-                    </div>
-                    <div className={styles.pessoaBoxHobbie}>
-                        <h3>Hobbie: {props.design}</h3>
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.design}/>
+                        </div>
+                        <div className={styles.pessoaH4Hobbie}>
+                            <h4>{props.hobbie}</h4>
+                        </div>
                     </div>
 
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.design}/>
+                        </div>
+                        <div className={styles.pessoaH4Hobbie}>
+                            <h4>{props.hobbie}</h4>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.design}/>
+                        </div>
+                        <div className={styles.pessoaH4Hobbie}>
+                            <h4>{props.hobbie}</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

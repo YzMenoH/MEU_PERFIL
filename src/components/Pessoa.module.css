@@ -1,6 +1,6 @@
 .pessoaContainer{
     font-family: Helvetica;
-    padding: 40px;
+    padding: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -40,14 +40,16 @@
     background-color: #4A4A4A ;
     border-radius: 20px;
     width: 1000px;
-    height: 100px;
+    height: auto;
+    align-content: center;
+    text-align: left;
 }
 
 .pessoaBoxMusic{
     padding: 30px;
     background-color: #4A4A4A;
     border-radius: 20px;
-    border: #88083d 5px solid;
+    border: #b51c5b 5px solid;
     width: auto;
     height: auto;
     margin: 10px;
@@ -55,19 +57,30 @@
 }
 
 .pessoaDisplayMusic{
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-.pessoaMusicH3{
+.pessoaDisplayFilme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pessoaH3{
     display: block;
     text-align: center;
     align-items: center;
     align-content: center;
     background-color: #88083d;
+    border:#b51c5b 4px solid;
     width: auto;
     height: 60px;
     border-radius: 20px;
@@ -87,30 +100,37 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block;
+    align-content: center;
 }
 
 .pessoaBoxFilme{
-    border-radius: 20px;
+    padding: 30px;
     background-color: #4A4A4A;
-    padding: 20px;
+    border-radius: 20px;
+    border: #b51c5b 5px solid;
+    width: auto;
+    height: auto;
     margin: 10px;
-    width: 256px;
+    display: flex;
 }
 
 .pessoaImagemFilme{
-    border-radius: 20px;
+    border-radius: 50px 30px;
+    border: #363636 8px solid;
     background-color: #4A4A4A;
     padding: 20px;
-    width: 580px;
-    height: 100px;
+    margin: 10px;
+    width: 75px;
+    height: 75px;
 }
 
 .pessoaContentHobbie{
     text-align: center;
     justify-content: center;
     align-items: center;
-    display: flex;
+    display: block;
+    align-content: center;
 }
 
 .pessoaBoxHobbie{
@@ -126,8 +146,18 @@
     border-radius: 20px;
     background-color: #4A4A4A;
     padding: 20px;
-    width: 75px;
-    height: 75px;
+    margin: 20px;
+    width: 170px;
+    height: 240px;
+}
+
+.pessoaDisplayHobbie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .pessoaH2{
