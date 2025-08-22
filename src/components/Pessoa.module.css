@@ -30,8 +30,8 @@
     border-radius: 30px;
     background-color: #4A4A4A;
     padding: 20px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
 }
 
 .pessoaBoxInfo{
@@ -92,8 +92,8 @@
     background-color: #4A4A4A;
     padding: 20px;
     margin: 10px;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 150px;
 }
 
 .pessoaContentFilme{
@@ -121,8 +121,8 @@
     background-color: #4A4A4A;
     padding: 20px;
     margin: 10px;
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 150px;
 }
 
 .pessoaContentHobbie{
@@ -145,6 +145,7 @@
 .pessoaImagemHobbie{
     border-radius: 20px;
     background-color: #4A4A4A;
+    border: #b51c5b 5px solid;
     padding: 20px;
     margin: 20px;
     width: 170px;

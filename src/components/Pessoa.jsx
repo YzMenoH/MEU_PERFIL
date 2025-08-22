@@ -8,9 +8,9 @@ function Pessoa(props){
                     <img src={props.foto} alt={props.nome}/>
                 </div>
                 <div className={styles.pessoaBoxInfo}>
-                    <h4>Nome: {props.nome}</h4>
-                    <h4>Idade: {props.idade}</h4>
-                    <h4>Profissão: {props.profissao}</h4>
+                    <p>Nome: {props.nome}</p>
+                    <p>Idade: {props.idade}</p>
+                    <p>Profissão: {props.profissao}</p>
                 </div>
             </div>
             
@@ -25,27 +25,45 @@ function Pessoa(props){
                 <div className={styles.pessoaBoxMusic}>
                     <div className={styles.pessoaDisplayMusic}>
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica1}/>
+                            </div>
+                            <p>{props.musica1}</p>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica2}/>
+                            </div>
+                            <p>{props.musica2}</p>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica3}/>
+                            </div>
+                            <p>{props.musica3}</p>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica4}/>
+                            </div>
+                            <p>{props.musica4}</p>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica5}/>
+                            </div>
+                            <p>{props.musica5}</p>
                         </div>
 
                         <div className={styles.pessoaImagemMusic}>
-                            <img src={props.imgMusica} alt={props.musica}/>
+                            <div>
+                                <img src={props.imgMusica} alt={props.musica6}/>
+                            </div>
+                            <p>{props.musica6}</p>
                         </div>
 
                     </div>
@@ -61,26 +79,32 @@ function Pessoa(props){
                 <div className={styles.pessoaBoxFilme}>
                     <div className={styles.pessoaDisplayFilme}>
                         <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
+                            <img src={props.imgFilme} alt={props.filme1}/>
+                            <p>{props.filme1}</p>
                         </div>
                         <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
-                        </div>
-                        
-                        <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
+                            <img src={props.imgFilme} alt={props.filme2}/>
+                            <p>{props.filme2}</p>
                         </div>
                         
                         <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
+                            <img src={props.imgFilme} alt={props.filme3}/>
+                            <p>{props.filme3}</p>
                         </div>
                         
                         <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
+                            <img src={props.imgFilme} alt={props.filme4}/>
+                            <p>{props.filme4}</p>
+                        </div>
+                        
+                        <div className={styles.pessoaImagemFilme}>
+                            <img src={props.imgFilme} alt={props.filme5}/>
+                            <p>{props.filme5}</p>
                         </div>
 
-                        <div className={styles.pessoaImagemFilme}>
-                            <img src={props.imgFilme} alt={props.filme}/>
+                        <div className={styles.pessoaImagemFilme6}>
+                            <img src={props.imgFilme} alt={props.filme6}/>
+                            <p>{props.filme6}</p>
                         </div>
                     </div>
                 </div>
@@ -96,44 +120,44 @@ function Pessoa(props){
                         <div className={styles.pessoaImagemHobbie}>
                             <img src={props.imgDesign} alt={props.design}/>
                         </div>
-                        <div className={styles.pessoaH4Hobbie}>
-                            <h4>{props.hobbie}</h4>
+                        <div className={styles.pessoaHobbie}>
+                            <p>{props.design}</p>
                         </div>
                     </div>
 
                     <div>
                         <div className={styles.pessoaImagemHobbie}>
-                            <img src={props.imgDesign} alt={props.design}/>
+                            <img src={props.imgDesign} alt={props.futebol}/>
                         </div>
-                        <div className={styles.pessoaH4Hobbie}>
-                            <h4>{props.hobbie}</h4>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div className={styles.pessoaImagemHobbie}>
-                            <img src={props.imgDesign} alt={props.design}/>
-                        </div>
-                        <div className={styles.pessoaH4Hobbie}>
-                            <h4>{props.hobbie}</h4>
+                        <div className={styles.pessoaHobbie}>
+                            <p>{props.futebol}</p>
                         </div>
                     </div>
 
                     <div>
                         <div className={styles.pessoaImagemHobbie}>
-                            <img src={props.imgDesign} alt={props.design}/>
+                            <img src={props.imgDesign} alt={props.geografia}/>
                         </div>
-                        <div className={styles.pessoaH4Hobbie}>
-                            <h4>{props.hobbie}</h4>
+                        <div className={styles.pessoaHobbie}>
+                            <p>{props.geografia}</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className={styles.pessoaImagemHobbie}>
+                            <img src={props.imgDesign} alt={props.jogos}/>
+                        </div>
+                        <div className={styles.pessoaHobbie}>
+                            <p>{props.jogos}</p>
                         </div>
                     </div>
                     
                     <div>
                         <div className={styles.pessoaImagemHobbie}>
-                            <img src={props.imgDesign} alt={props.design}/>
+                            <img src={props.imgDesign} alt={props.comida}/>
                         </div>
-                        <div className={styles.pessoaH4Hobbie}>
-                            <h4>{props.hobbie}</h4>
+                        <div className={styles.pessoaHobbie}>
+                            <p>{props.comida}</p>
                         </div>
                     </div>
                 </div>
